@@ -1,5 +1,6 @@
 import * as React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 import { cn } from '@/lib/utils';
 import { Button } from '@/components/ui/button';
@@ -9,12 +10,18 @@ export function Header({
   ...props
 }: React.HTMLAttributes<HTMLElement>) {
   return (
-    <header className={cn('bg-background border-b', className)} {...props}>
+    <header className={cn('bg-chart-5 py-5', className)} {...props}>
       <div className='mx-auto flex h-14 max-w-7xl items-center justify-between px-4'>
-        <Link href='/' className='font-semibold'>
-          Mentor Academy
+        <Link href='/' className='flex items-center'>
+          <Image
+            src='/logos/ma_main/dark_backgrounds.png'
+            alt='Mentor Academy Logo'
+            width={120}
+            height={100}
+            priority
+          />
         </Link>
-        <nav className='flex items-center gap-4'>
+        <nav className='flex items-center text-muted gap-4'>
           <Link href='#' className='text-sm font-medium hover:underline'>
             Home
           </Link>
@@ -31,11 +38,19 @@ export function Header({
             Contact Us
           </Link>
         </nav>
-        <div>
-          <Button variant='outline' asChild>
+        <div className='flex gap-2'>
+          <Button
+            variant='outline'
+            className='rounded-full border-accent text-accent bg-transparent hover:bg-accent hover:text-primary'
+            asChild
+          >
             <Link href='#'>Login</Link>
           </Button>
-          <Button variant='outline' asChild>
+          <Button
+            variant={'outline'}
+            className='rounded-full border-accent bg-accent text-accent-foreground hover:bg-transparent hover:text-accent hover:border-accent'
+            asChild
+          >
             <Link href='#'>Sign up</Link>
           </Button>
         </div>
