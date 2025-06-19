@@ -1,9 +1,19 @@
-import * as React from 'react';
-import Link from 'next/link';
-import Image from 'next/image';
+'use client'
 
-import { cn } from '@/lib/utils';
-import { Button } from '@/components/ui/button';
+import * as React from 'react'
+import Link from 'next/link'
+import Image from 'next/image'
+
+import { Menu } from 'lucide-react'
+
+import { cn } from '@/lib/utils'
+import { Button } from '@/components/ui/button'
+import {
+  Sheet,
+  SheetTrigger,
+  SheetContent,
+} from '@/components/ui/sheet'
+import { SideBar } from './sidebar'
 
 export function Header({
   className,
@@ -22,7 +32,7 @@ export function Header({
               priority
             />
           </Link>
-          <nav className='flex items-center text-muted gap-4'>
+          <nav className='hidden md:flex items-center text-muted gap-4'>
             <Link href='#' className='text-sm font-medium hover:underline'>
               Home
             </Link>
@@ -39,7 +49,7 @@ export function Header({
               Contact Us
             </Link>
           </nav>
-          <div className='flex gap-2'>
+          <div className='flex items-center gap-2'>
             <Button
               variant='outline'
               className='rounded-full border-accent text-accent bg-transparent hover:bg-accent hover:text-primary'
@@ -54,6 +64,7 @@ export function Header({
             >
               <Link href='#'>Sign up</Link>
             </Button>
+            <SideBar />
           </div>
         </div>
       </header>
