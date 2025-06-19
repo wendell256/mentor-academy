@@ -1,4 +1,5 @@
 import Hero from '@/components/hero';
+import MentorBanner from '@/components/mentor-banner';
 import MentorIntro from '@/components/mentor-intro';
 import ReviewCard from '@/components/review-card';
 import Stats from '@/components/stats';
@@ -12,6 +13,7 @@ export default function Home() {
       </div>
       <Stats />
       <MentorIntro />
+      <MentorBanner />
     </main>
   );
 }
