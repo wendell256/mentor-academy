@@ -25,9 +25,9 @@ export default function CoachBuilder() {
         </h2>
 
         <p className='text-foreground text-base max-w-md'>
-          If you're not confident in your product and pricing, your clients
-          won't be either. Coach Builder helps you create a clear, valuable
-          offer and price it so you charge what you're truly worth.
+          If you&apos;re not confident in your product and pricing, your clients
+          won&apos;t be either. Coach Builder helps you create a clear, valuable
+          offer and price it so you charge what you&apos;re truly worth.
         </p>
 
         <p className='text-foreground text-base max-w-md'>
@@ -36,7 +36,7 @@ export default function CoachBuilder() {
         </p>
 
         <p className='text-foreground text-base max-w-md'>
-          We'll also help you define your niche so the right clients know you're
+          We&apos;ll also help you define your niche so the right clients know you&apos;re
           the perfect fit.
         </p>
 

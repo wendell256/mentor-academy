@@ -9,10 +9,7 @@ import { Button } from '@/components/ui/button';
 import { Sheet, SheetTrigger, SheetContent, SheetHeader, SheetTitle, SheetDescription } from '@/components/ui/sheet';
 import { VisuallyHidden } from '@radix-ui/react-visually-hidden';
 
-export function SideBar({
-  className,
-  ...props
-}: React.HTMLAttributes<HTMLElement>) {
+export function SideBar() {
   return (
     <div className='md:hidden'>
       <Sheet>
