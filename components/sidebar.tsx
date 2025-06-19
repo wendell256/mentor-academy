@@ -2,11 +2,9 @@
 
 import * as React from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
 
 import { Menu } from 'lucide-react';
 
-import { cn } from '@/lib/utils';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetTrigger, SheetContent, SheetHeader, SheetTitle, SheetDescription } from '@/components/ui/sheet';
 import { VisuallyHidden } from '@radix-ui/react-visually-hidden';
@@ -20,11 +18,11 @@ export function SideBar({
       <Sheet>
         <SheetTrigger asChild>
           <Button variant='ghost' size='icon' className='text-white'>
-            <Menu className='h-6 w-6' />
+            <Menu className='h-10 w-10' />
             <span className='sr-only'>Open menu</span>
           </Button>
         </SheetTrigger>
-        <SheetContent side='left' className='flex flex-col gap-6 pt-8'>
+        <SheetContent side='right' className='flex flex-col gap-6 pt-8 bg-chart-5'>
           <VisuallyHidden>
             <SheetHeader>
               <SheetTitle>Menu Hamburguesa</SheetTitle>
@@ -33,7 +31,7 @@ export function SideBar({
           <VisuallyHidden>
             <SheetDescription>Menu Lateral</SheetDescription>
           </VisuallyHidden>
-          <nav className='grid gap-4 text-muted'>
+          <nav className='grid gap-4 text-muted px-4'>
             <Link href='#' className='font-medium'>
               Home
             </Link>
