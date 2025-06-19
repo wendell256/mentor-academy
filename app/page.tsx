@@ -7,6 +7,7 @@ import MentorIntro from '@/components/mentor-intro';
 import ReviewCard from '@/components/review-card';
 import Stats from '@/components/stats';
 import GrowthFeatures from '../components/growth-features';
+import RoadmapSection from '@/components/roadmap-fold';
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <CoachBuilder />
       <CoachResults />
       <GrowthFeatures />
+      <RoadmapSection />
     </main>
   );
 }
