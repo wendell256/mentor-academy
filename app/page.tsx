@@ -6,6 +6,7 @@ import MentorFirstStep from '@/components/mentor-first-step';
 import MentorIntro from '@/components/mentor-intro';
 import ReviewCard from '@/components/review-card';
 import Stats from '@/components/stats';
+import GrowthFeatures from '../components/growth-features';
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <MentorFirstStep />
       <CoachBuilder />
       <CoachResults />
+      <GrowthFeatures />
     </main>
   );
 }
