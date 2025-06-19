@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button';
 
 export default function Hero() {
   return (
-    <section className='relative overflow-hidden bg-chart-5 hero-grid py-16 md:py-24'>
+    <section className='relative overflow-hidden bg-chart-5 hero-grid pt-16 pb-20 md:py-24'>
       <div className='relative z-10 mx-auto grid max-w-7xl grid-cols-1 gap-8 px-4 md:grid-cols-2 md:gap-12'>
         <div className='flex flex-col justify-center gap-6 text-white'>
           <div className='whitespace-pre-line'>

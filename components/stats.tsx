@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Stats() {
   return (
-    <section className='bg-[#A5D0AA]/20'>
+    <section className='bg-[#A5D0AA]/20 pb-6 pt-20'>
       <div className='mx-auto max-w-7xl flex items-start px-4 gap-x-8 text-primary'>
         <div className='relative flex items-start justify-center gap-4 py-8'>
           <span className='absolute right-[-15px] top-1/2 -translate-y-1/2 h-[56px] w-px bg-gray-300'></span>
