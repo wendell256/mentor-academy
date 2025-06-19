@@ -1,5 +1,6 @@
 import Hero from '@/components/hero';
 import MentorBanner from '@/components/mentor-banner';
+import MentorFirstStep from '@/components/mentor-first-step';
 import MentorIntro from '@/components/mentor-intro';
 import ReviewCard from '@/components/review-card';
 import Stats from '@/components/stats';
@@ -14,6 +15,7 @@ export default function Home() {
       <Stats />
       <MentorIntro />
       <MentorBanner />
+      <MentorFirstStep />
     </main>
   );
 }

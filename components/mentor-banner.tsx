@@ -19,7 +19,7 @@ export default function MentorBanner() {
             <br className='hidden md:block' />
             <span className='text-accent'>Successful Mentorpreneurs</span>
           </h2>
-          <Button className='mt-6 bg-accent text-white hover:bg-accent/90'>
+          <Button className='mt-6 rounded-full bg-accent text-primary hover:bg-accent/90'>
             Join Mentor Academy
           </Button>
         </div>
