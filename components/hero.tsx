@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import { FaPlay } from 'react-icons/fa6';
 import { Button } from '@/components/ui/button';
-import { dmSans } from '@/fonts/fonts';
 
 export default function Hero() {
   return (
@@ -22,10 +21,10 @@ export default function Hero() {
               in 60 days
             </div>
           </div>
-          <div className={`${dmSans.variable} text-background text-base`}>
+          <p className={`text-background text-base`}>
             Proven system to turn your expertise into a thriving mentorship
             practice–fast. No guesswork, no overwhelm.
-          </div>
+          </p>
           <Button className='w-fit bg-accent text-accent-foreground rounded-full hover:bg-accent/90 py-6'>
             Join Mentor Academy
           </Button>
