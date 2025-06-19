@@ -134,3 +134,8 @@
 p {
   font-family: var(--font-dmSans), arial;
 }
+
+label {
+  color: var(--color-primary);
+  margin-bottom: 2px;
+}

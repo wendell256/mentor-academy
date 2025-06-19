@@ -9,6 +9,7 @@ import Stats from '@/components/stats';
 import GrowthFeatures from '../components/growth-features';
 import RoadmapSection from '@/components/roadmap-fold';
 import FaqAccordion from '@/components/faq-accordion';
+import JoinForm from '@/components/join-form';
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
       <GrowthFeatures />
       <RoadmapSection />
       <FaqAccordion />
+      <JoinForm />
     </main>
   );
 }
