@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button';
 
 export default function CoachBuilder() {
   return (
-    <section className='max-w-6xl mx-auto px-6 py-16 grid grid-cols-1 sm:grid-cols-2 items-center gap-10'>
+    <section className='max-w-7xl mx-auto px-6 py-16 grid grid-cols-1 sm:grid-cols-2 items-center gap-10'>
       <div className='rounded-xl overflow-hidden shadow-md'>
         <Image
           src='/images/coach-videocall.png'

@@ -4,7 +4,7 @@ import { CheckSquare2 } from 'lucide-react';
 
 export default function MentorFirstStep() {
   return (
-    <section className='max-w-6xl mx-auto px-4 py-12 grid grid-cols-1 sm:grid-cols-2 gap-10 items-center'>
+    <section className='max-w-7xl mx-auto px-4 py-12 grid grid-cols-1 sm:grid-cols-2 gap-10 items-center'>
       <div className='space-y-6'>
         <h2 className='text-3xl md:text-4xl font-semibold tracking-tight text-primary'>
           Take the First Step <br /> Toward Your Mentor <br /> Business

@@ -8,6 +8,7 @@ import ReviewCard from '@/components/review-card';
 import Stats from '@/components/stats';
 import GrowthFeatures from '../components/growth-features';
 import RoadmapSection from '@/components/roadmap-fold';
+import FaqAccordion from '@/components/faq-accordion';
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
       <CoachResults />
       <GrowthFeatures />
       <RoadmapSection />
+      <FaqAccordion />
     </main>
   );
 }

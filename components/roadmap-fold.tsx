@@ -38,7 +38,7 @@ const roadmap = [
 
 export default function RoadmapSection() {
   return (
-    <section className='bg-gradient-to-t from-black/90 to-[#0567FE] text-white py-20 px-6 rounded-3xl max-w-6xl mx-auto'>
+    <section className='bg-gradient-to-t from-black/90 to-[#0567FE] text-white py-20 px-6 rounded-3xl max-w-7xl mx-auto'>
       <div className='text-center mb-10 space-y-3'>
         <div className='flex justify-center'>
           <div className='text-4xl bg-[#170032]/50 py-2 px-6 rounded'>
