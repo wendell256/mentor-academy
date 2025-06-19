@@ -31,7 +31,7 @@ export default function Hero() {
         </div>
         <div className='relative flex items-center justify-center'>
           <Image
-            src='/images/hero_video_preview.png'
+            src='/images/hero-video-preview.png'
             alt='Video preview'
             width={640}
             height={360}

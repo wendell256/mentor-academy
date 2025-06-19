@@ -15,7 +15,7 @@ export function Header({
       <div className='mx-auto flex h-14 max-w-7xl items-center justify-between px-4'>
         <Link href='/' className='flex items-center'>
           <Image
-            src='/images/logos/ma_main/dark_backgrounds.png'
+            src='/images/logos/ma_main/dark-backgrounds.png'
             alt='Mentor Academy Logo'
             width={120}
             height={100}
