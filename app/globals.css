@@ -130,3 +130,7 @@
   background-repeat: repeat;
   pointer-events: none;
 }
+
+p {
+  font-family: var(--font-dmSans), arial;
+}
