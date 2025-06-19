@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button';
 export default function MentorBanner() {
   return (
     <div className='max-w-7xl mx-auto'>
-      <div className='relative w-full rounded-2xl overflow-hidden my-12'>
+      <div className='relative rounded-2xl overflow-hidden my-12 mx-4'>
         <Image
           src='/images/mentor-audience.png'
           alt='Mentor Audience'
