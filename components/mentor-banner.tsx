@@ -6,7 +6,7 @@ export default function MentorBanner() {
     <div className='px-4'>
       <div className='relative w-full rounded-2xl overflow-hidden my-12'>
         <Image
-          src='/images/mentor-audience.png' // Replace with actual image path
+          src='/images/mentor-audience.png'
           alt='Mentor Audience'
           layout='fill'
           objectFit='cover'

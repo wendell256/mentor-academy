@@ -21,7 +21,7 @@ export default function MentorIntro() {
           About Mentor Academy
         </Badge>
 
-        <h2 className='text-3xl md:text-4xl font-base tracking-tight text-primary'>
+        <h2 className='text-3xl md:text-4xl font-semibold tracking-tight text-primary'>
           You Have the Wisdom.
           <br />
           But Do You Have the

@@ -1,3 +1,4 @@
+import CoachBuilder from '@/components/coach-builder';
 import Hero from '@/components/hero';
 import MentorBanner from '@/components/mentor-banner';
 import MentorFirstStep from '@/components/mentor-first-step';
@@ -16,6 +17,7 @@ export default function Home() {
       <MentorIntro />
       <MentorBanner />
       <MentorFirstStep />
+      <CoachBuilder />
     </main>
   );
 }
